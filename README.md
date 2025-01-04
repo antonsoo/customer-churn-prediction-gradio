@@ -122,4 +122,66 @@ You will also need to download the Telco Customer Churn dataset from Kaggle and 
   cd https://github.com/antonsoo/customer-churn-prediction-gradio
   ```
 
-  
+2. Install the required libraries:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+3. Run the Jupyter Notebook:
+  ```bash
+  jupyter notebook Telecom_Customer_Churn_Prediction_gradio.ipynb
+  ```
+
+4. Clone the repository:
+  ```bash
+  git clone https://github.com/antonsoo/customer-churn-prediction-gradio
+  cd https://github.com/antonsoo/customer-churn-prediction-gradio
+  ```
+
+5. Execute the cells: Run the cells in the notebook sequentially, following the instructions in the comments.
+
+6. Launch the Gradio app: The Gradio app will launch automatically after running Cell 12. You can access it through the provided URL.
+
+## Gradio App
+
+The Gradio app provides an interactive interface for predicting customer churn. You can enter customer information in the input fields and click the "Submit" button to get a prediction. The app will display the predicted churn probability and a SHAP force plot that explains the factors contributing to the prediction.
+
+## Hugging Face Spaces Deployment:
+
+The Gradio app is also deployed on Hugging Face Spaces for easy access:
+
+https://huggingface.co/spaces/antonsoloviev/customer-churn-prediction-gradio
+
+## Future Work
+*   Further hyperparameter tuning to improve model performance.
+*   Experiment with different feature engineering techniques.
+*   Incorporate additional data sources to enrich the dataset.
+*   Implement a more sophisticated model monitoring and feedback system.
+*   Explore the use of other machine learning models, such as deep learning models.
+*   Investigate the impact of different intervention strategies on customer churn.
+
+## Acknowledgments
+*   This project utilizes the Telco Customer Churn dataset from Kaggle.
+*   The project uses the following open-source libraries: pandas, scikit-learn, XGBoost, joblib, Gradio, and SHAP.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+
+Anton Soloviev - UpWork: https://www.upwork.com/freelancers/~01b9d171164a005062
+
+
+
+
+
+
+
+
+
+
+
+
+
+
